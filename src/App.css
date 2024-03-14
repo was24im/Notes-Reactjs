@@ -1,0 +1,75 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0e0f11;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 2;
+}
+
+main {
+  padding: 20px;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-form input,
+.note-form textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-form textarea {
+  height: 100px;
+}
+
+.note-form button,
+.note button {
+  padding: 10px;
+  background-color: #032311;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-form button:hover,
+.note button:hover {
+  background-color: #941212;
+}
+
+.note {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.note h3 {
+  margin-top: 0;
+}
+
+.note-content {
+  margin-bottom: 10px;
+}
+
+.note button {
+  display: block;
+  margin-left: auto;
+}
